@@ -26,12 +26,69 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
+/* footer */
+
+.max-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/*  ======MISCELLANEOUS========= */
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A0B2E;
+  border-radius: 8px;
+}
+
+::selection {
+  color: white;
+  background: #1A0B2E;
+}
+
+.no-scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+
 .font-non-latin {
   font-family: 'NonLatinFont', sans-serif;
+}
+/* globals.css */
+.font-montserrat-poppins {
+  font-family: 'Montserrat', 'Poppins', sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+    .animate-slide-right {
+      animation: slide-right 0.5s ease-out;
+    }
+  
+    .animate-slide-up {
+      animation: slide-up 0.5s ease-out;
+    }
+  
+    .animate-slide-left {
+      animation: slide-left 0.5s ease-out;
+    }
 }
+

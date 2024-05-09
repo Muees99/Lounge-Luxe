@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { FiLoader } from "react-icons/fi";
+import Navbar from "../components/Navs/Navbar";
 
 export default function HomeLayout({
   children,
@@ -23,5 +24,12 @@ export default function HomeLayout({
       </div>
     );
   }
-  return <div>HomeLayout</div>;
+  return(
+    <>
+    <Navbar/>
+
+  </>
+
+  ) ;
+  
 }

@@ -2,6 +2,8 @@ import React from "react";
 import type { Metadata } from "next";
 import "../public/fonts/font.css";
 import "./globals.css";
+import GotoTop from "./Ui/GotoTop";
+import StateContextProvider from "./context/StateContext";
 
 export const metadata: Metadata = {
   title: " Lounge Luxe",
@@ -15,7 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="font-montserrat-poppins font-non-latin">
+        {" "}
+        <StateContextProvider>
+          {children}
+          <GotoTop />
+        </StateContextProvider>
+      </body>
     </html>
   );
 }

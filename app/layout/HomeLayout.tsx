@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { FiLoader } from "react-icons/fi";
 import Navbar from "../components/Navs/Navbar";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 
 export default function HomeLayout({
   children,
@@ -28,6 +29,7 @@ export default function HomeLayout({
   return(
     <>
     <Navbar/>
+    <Hero/>
     <Footer/>
 
   </>

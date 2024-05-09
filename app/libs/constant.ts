@@ -6,11 +6,11 @@ export const NAVLINKS: NavLinkProps[] = [
   { id: 3, link: "sales", label: "Sales" },
   { id: 4, link: "showroom", label: "Showroom" },
   // { id: 5, link: "cart", label: "cart" },
-  { id: 6, link: "contact-us", label: "Contact Us" },
+  { id: 5, link: "contact-us", label: "Contact Us" },
 ];
 
 export const FOOTER_LINKS: FooterLinkProps = {
-  Connect: [
+  Customercare: [
     {
       id: 1,
       link: "mailto:mueesalabi294@gmail.com",
@@ -23,7 +23,7 @@ export const FOOTER_LINKS: FooterLinkProps = {
     },
     { id: 3, link: "tel:+2348101097866", label: "Mobile" },
   ],
-  followmywork: [
+  services: [
     { id: 1, link: "https://github.com/Muees99", label: "GitHub" },
     { id: 2, link: "https://twitter.com/Muees__99", label: "Twitter" },
     {
@@ -32,6 +32,11 @@ export const FOOTER_LINKS: FooterLinkProps = {
       label: "LinkedIn",
     },
   ],
+  accessories: [
+    { id: 1, link: "", label: "GitHub" },
+    { id: 2, link: "", label: "Twitter" },
+    { id: 3, link: "", label: "LinkedIn" },
+  ],
   link: "",
-  label: "",
+  label: ""
 };

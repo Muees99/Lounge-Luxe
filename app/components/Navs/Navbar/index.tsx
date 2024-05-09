@@ -69,7 +69,7 @@ const Navbar = () => {
                 isActive === link.link
                   ? "before:w-full text-primary-light"
                   : "",
-                "hover:text-[#f4d228e7]"
+                "hover:text-[#dcbf2de7]"
               )}
             >
               <span className="font-montserrat">{link.label}</span>

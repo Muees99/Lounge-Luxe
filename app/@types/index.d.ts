@@ -5,7 +5,7 @@ export type NavLinkProps = {
 };
 export type FooterLinkProps = {
   [x: string]: any;
-  Connect: any;
+  Customercare: any;
   id?: number;
   link: string;
   label: string;
@@ -17,9 +17,9 @@ export interface StateContextProps {
 }
 
 export type FooterLinkProps = {
-  followmywork: NavLinkProps[];
+  service: NavLinkProps[];
   Connect: NavbarLinkProps[];
-  // resource: NavbarLinkProps[];
+  accessories: NavbarLinkProps[];
   // followus: NavbarLinkProps[];
 };
 

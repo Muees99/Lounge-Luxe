@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 const Hero = () => {
   return (
     <header
-      className=" relative w-full sm:h-screen h-full "
+      className=" relative w-full sm:h-screen h-full"
       style={{
         backgroundImage: `url('/assets/couch.png')`,
         backgroundSize: "cover",
@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="font-montserrat font-bold text-3xl md:text-5xl sm:text-2xl leading-[140%] text-red-50">
             Welcome to LoungeLuxe
           </div>
-          <p className="font-montserrat my-25 mx-132 text-[25px] leading-[28px] mt-10 text-[#f0eab1]">
+          <p className="font-montserrat my-25 mx-132 text-[25px] leading-[28px] mt-6 text-[#f0eab1]">
             Here we provide you with the latest and fashionable chairs for your
             crib.
           </p>

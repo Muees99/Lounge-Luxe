@@ -91,7 +91,7 @@ const Navbar = () => {
             type="button"
             className="bg-[#262728] hover:bg-[#fff27b86] focus:bg-[#807500] px-4 py-2 rounded-md font-medium text-white"
           >
-            Logout
+            Sign Up
             <CiLogout />
           </Button>
         </div>

@@ -4,6 +4,7 @@ import { FiLoader } from "react-icons/fi";
 import Navbar from "../components/Navs/Navbar";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import ModernStool from "../components/ModernStool";
 
 export default function HomeLayout({
   children,
@@ -30,6 +31,7 @@ export default function HomeLayout({
     <>
     <Navbar/>
     <Hero/>
+    <ModernStool/>
     <Footer/>
 
   </>

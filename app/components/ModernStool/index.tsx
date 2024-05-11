@@ -4,8 +4,8 @@ import Image from "next/image";
 const Stool = () => {
   return (
     <>
-      <div className="flex justify-between items-start">
-        <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
+      <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
+        <div className="flex justify-between items-start">
           <div className="flex flex-row justify-between items-start">
             <div className="mr-4 relative" style={{ width: "50%" }}>
               <div className="relative">

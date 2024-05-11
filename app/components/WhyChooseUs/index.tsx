@@ -54,7 +54,7 @@ const WhyChooseUs: React.FC<WhyChooseUsProps> = ({
   image,
 }) => {
   return (
-    <div className="flex items-center justify-between mb-20">
+    <div className="flex items-center justify-between">
       <div className="max-w-[200px]">
         <div className="overflow-hidden rounded-lg shadow-md">
           <img src={image} alt={title} className="w-full" />

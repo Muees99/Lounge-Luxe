@@ -2,12 +2,13 @@
 // import React from "react";
 // import { IoChevronForwardOutline } from "react-icons/io5";
 // import Image from "next/image";
+// import { GiShoppingCart } from "react-icons/gi";
 
-// const LoungeChairs = () => {
+// const Discounts = () => {
 //   return (
 //     <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%] mt-10">
 //       <div className="flex justify-between items-center md:gap-24 animate-slide-right">
-//         <div className="text-lg font-bold">Lounge Chairs:</div>
+//         <div className="text-lg font-bold">Discounts:</div>
 //         <Button className="flex items-center gap-2 text-blue-100">
 //           See all <IoChevronForwardOutline className="h-4 w-4" />
 //         </Button>
@@ -18,7 +19,7 @@
 //           {/* Image */}
 //           <div className="relative h-60">
 //             <Image
-//               src={"/assets/Lounge chair 2.png"}
+//               src={"/assets/seatout1.png"}
 //               alt="teal"
 //               layout="fill"
 //               objectFit="cover"
@@ -29,9 +30,13 @@
 //             {/* Title */}
 //             <h4 className="text-lg font-semibold mb-2">Barstool</h4>
 //             {/* Price */}
-//             <div className="flex items-center">
+//             <div className="flex  flex-row items-center gap-8">
 //               <span className="text-lg font-bold">$99.99</span>
 //               {/* You can add more elements for pricing, like discount */}
+//               <div className="flex  items-end ">
+//                 <GiShoppingCart className="text-lg font-bold" />
+//                 {/* You can add more elements for pricing, like discount */}
+//               </div>
 //             </div>
 //           </div>
 //         </div>
@@ -40,7 +45,7 @@
 //         <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden">
 //           <div className="relative h-60">
 //             <Image
-//               src={"/assets/peachcouch.png"}
+//               src={"/assets/seatout2.png"}
 //               alt="teal"
 //               layout="fill"
 //               objectFit="cover"
@@ -57,7 +62,7 @@
 //         <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden">
 //           <div className="relative h-60">
 //             <Image
-//               src={"/assets/Lounge chair 3.png"}
+//               src={"/assets/Disc2.png"}
 //               alt="teal"
 //               layout="fill"
 //               objectFit="cover"
@@ -73,7 +78,7 @@
 //         <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden">
 //           <div className="relative h-60">
 //             <Image
-//               src={"/assets/navycouch.png"}
+//               src={"/assets/Disc1.png"}
 //               alt="teal"
 //               layout="fill"
 //               objectFit="cover"
@@ -91,7 +96,7 @@
 //   );
 // };
 
-// export default LoungeChairs;
+// export default Discounts;
 
 import React from "react";
 import { GiShoppingCart } from "react-icons/gi";
@@ -103,7 +108,7 @@ const Discounts: React.FC = () => {
   return (
     <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%] mt-10">
       <div className="flex justify-between items-center md:gap-24 animate-slide-right">
-        <div className="text-lg font-bold">Lounge Chairs:</div>
+        <div className="text-lg font-bold">Discounts:</div>
         <Button className="flex items-center gap-2 text-blue-100">
           See all <IoChevronForwardOutline className="h-4 w-4" />
         </Button>
@@ -114,7 +119,7 @@ const Discounts: React.FC = () => {
           {/* Image */}
           <div className="relative h-60">
             <Image
-              src={"/assets/Lounge chair 2.png"}
+              src={"/assets/seatout1.png"}
               alt="teal"
               layout="fill"
               objectFit="cover"
@@ -136,7 +141,7 @@ const Discounts: React.FC = () => {
           {/* Image */}
           <div className="relative h-60">
             <Image
-              src={"/assets/peachcouch.png"}
+              src={"/assets/Disc2.png"}
               alt="teal"
               layout="fill"
               objectFit="cover"
@@ -158,7 +163,7 @@ const Discounts: React.FC = () => {
           {/* Image */}
           <div className="relative h-60">
             <Image
-              src={"/assets/Lounge chair 3.png"}
+              src={"/assets/seatout2.png"}
               alt="teal"
               layout="fill"
               objectFit="cover"
@@ -180,7 +185,7 @@ const Discounts: React.FC = () => {
           {/* Image */}
           <div className="relative h-60">
             <Image
-              src={"/assets/navycouch.png"}
+              src={"/assets/Disc1.png"}
               alt="teal"
               layout="fill"
               objectFit="cover"

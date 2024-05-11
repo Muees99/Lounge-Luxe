@@ -8,6 +8,7 @@ import ModernStool from "../components/ModernStool";
 import Choose from "../components/Choose";
 import FitChairs from "../components/FitChairs";
 import LoungeChairs from "../components/LoungeChairs";
+import Discounts from "../components/Discounts";
 
 export default function HomeLayout({
   children,
@@ -35,7 +36,8 @@ export default function HomeLayout({
     <Navbar/>
     <Hero/>
     <FitChairs/>
-    {/* <LoungeChairs/> */}
+    <LoungeChairs/>
+    <Discounts/>
     <Choose/>
     <ModernStool/>
     <Footer/>

@@ -1,4 +1,24 @@
-// import React from "react";
+// const whyChooseUsDescriptions = [
+
+//   {
+//     title: "Quality Craftsmanship",
+//     description:
+//       "We meticulously handcraft each piece of furniture to ensure the highest quality and durability, so you can enjoy it for years to come.",
+//     image: "quality-craftsmanship-image.jpg",
+//   },
+//   {
+//     title: "Unique Designs",
+//     description:
+//       "Our team of talented designers creates unique and innovative furniture designs that will add character and style to any space.",
+//     image: "unique-designs-image.jpg",
+//   },
+//   {
+//     title: "Customer Satisfaction",
+//     description:
+//       "Customer satisfaction is our top priority. We strive to exceed your expectations by providing exceptional service and support throughout your shopping experience.",
+//     image: "customer-satisfaction-image.jpg",
+//   },
+// ];
 
 // interface WhyChooseUsProps {
 //   title: string;
@@ -12,26 +32,11 @@
 //   image,
 // }) => {
 //   return (
-//     <div
-//       style={{
-//         display: "flex",
-//         alignItems: "center",
-//         justifyContent: "space-between",
-//         marginBottom: "20px",
-//       }}
-//     >
-//       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
-//         <div style={{ flex: 1, paddingRight: "20px" }}>
-//           <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>{title}</h2>
-//           <p style={{ fontSize: "16px", color: "#fff" }}>{description}</p>
-//         </div>
-//         <div style={{ flexShrink: 0 }}>
-//           <img
-//             src={image}
-//             alt={title}
-//             style={{ maxWidth: "100%", height: "auto" }}
-//           />
-//         </div>
+//     <div className="why-choose-us">
+//       <img src={image} alt={title} className="why-choose-us-image" />
+//       <div className="why-choose-us-content">
+//         <h2 className="why-choose-us-title">{title}</h2>
+//         <p className="why-choose-us-description">{description}</p>
 //       </div>
 //     </div>
 //   );
@@ -39,8 +44,48 @@
 
 // export default WhyChooseUs;
 
+// import React from "react";
+// import WhyChooseUs from "../WhyChooseUs"; // Adjust the import path as per your folder structure
 
-import React from "react";
+// // Define the whyChooseUsDescriptions array here or import it from another file
+// const whyChooseUsDescriptions = [
+//   {
+//     title: "Quality Craftsmanship",
+//     description:
+//       "We meticulously handcraft each piece of furniture to ensure the highest quality and durability, so you can enjoy it for years to come.",
+//     image: "quality-craftsmanship-image.jpg",
+//   },
+//   {
+//     title: "Unique Designs",
+//     description:
+//       "Our team of talented designers creates unique and innovative furniture designs that will add character and style to any space.",
+//     image: "unique-designs-image.jpg",
+//   },
+//   {
+//     title: "Customer Satisfaction",
+//     description:
+//       "Customer satisfaction is our top priority. We strive to exceed your expectations by providing exceptional service and support throughout your shopping experience.",
+//     image: "customer-satisfaction-image.jpg",
+//   },
+// ];
+
+// const YourComponent: React.FC = () => {
+//   return (
+//     <div>
+//       {/* Render each WhyChooseUs component with the desired props */}
+//       {whyChooseUsDescriptions.map((item, index) => (
+//         <WhyChooseUs
+//           key={index}
+//           title={item.title}
+//           description={item.description}
+//           image={item.image}
+//         />
+//       ))}
+//     </div>
+//   );
+// };
+
+// export default YourComponent;
 
 interface WhyChooseUsProps {
   title: string;
@@ -54,15 +99,10 @@ const WhyChooseUs: React.FC<WhyChooseUsProps> = ({
   image,
 }) => {
   return (
-    <div className="flex items-center justify-between">
-      <div className="max-w-[200px]">
-        <div className="overflow-hidden rounded-lg shadow-md">
-          <img src={image} alt={title} className="w-full" />
-        </div>
-      </div>
-      <div className="flex-1 ml-4">
-        <h2 className="text-xl font-semibold mb-2">{title}</h2>
-        <p className="text-base text-gray-600">{description}</p>
+    <div className="why-choose-us">
+      <img src={image} alt={title} className="why-choose-us-image" />
+      <div className="why-choose-us-content">
+        <p className="why-choose-us-description">{description}</p>
       </div>
     </div>
   );

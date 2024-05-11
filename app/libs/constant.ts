@@ -14,29 +14,29 @@ export const FOOTER_LINKS: FooterLinkProps = {
     {
       id: 1,
       link: "mailto:mueesalabi294@gmail.com",
-      label: "Email: mueesalabi294@gmail.com",
+      label: "mueesalabi294@gmail.com",
     },
     {
       id: 2,
       link: "sms:muees99@icloud.com",
-      label: "iMessage: muees99@icloud.com",
+      label: " muees99@icloud.com",
     },
     { id: 3, link: "tel:+2348101097866", label: "Mobile" },
   ],
   services: [
-    { id: 1, link: "https://github.com/Muees99", label: "GitHub" },
-    { id: 2, link: "https://twitter.com/Muees__99", label: "Twitter" },
+    { id: 1, link: "", label: "Installations" },
+    { id: 2, link: "", label: "Fittings" },
     {
       id: 3,
-      link: "https://www.linkedin.com/in/muees-alabi-77b14b239/",
-      label: "LinkedIn",
+      link: "",
+      label: "Customization",
     },
   ],
   accessories: [
-    { id: 1, link: "", label: "GitHub" },
-    { id: 2, link: "", label: "Twitter" },
-    { id: 3, link: "", label: "LinkedIn" },
+    { id: 1, link: "", label: "Furniture Locks" },
+    { id: 2, link: "", label: "Furniture hinges" },
+    { id: 3, link: "", label: "Wraps & Covers" },
   ],
   link: "",
-  label: ""
+  label: "",
 };

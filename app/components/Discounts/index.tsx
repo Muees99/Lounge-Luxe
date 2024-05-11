@@ -128,7 +128,7 @@ const Discounts: React.FC = () => {
           {/* Content */}
           <div className="p-4 text-slate-500 flex flex-col">
             {/* Title */}
-            <h4 className="text-lg font-semibold mb-2">Barstool</h4>
+            <h4 className="text-lg font-semibold mb-2">Panton Chair </h4>
             {/* Price and cart icon */}
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold">$99.99</span>
@@ -150,7 +150,9 @@ const Discounts: React.FC = () => {
           {/* Content */}
           <div className="p-4 text-slate-500 flex flex-col">
             {/* Title */}
-            <h4 className="text-lg font-semibold mb-2">Barstool</h4>
+            <h4 className="text-lg font-semibold mb-2">
+              Fredericia Lounge Chair
+            </h4>
             {/* Price and cart icon */}
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold">$99.99</span>
@@ -172,7 +174,7 @@ const Discounts: React.FC = () => {
           {/* Content */}
           <div className="p-4 text-slate-500 flex flex-col">
             {/* Title */}
-            <h4 className="text-lg font-semibold mb-2">Barstool</h4>
+            <h4 className="text-lg font-semibold mb-2">Swivel chair</h4>
             {/* Price and cart icon */}
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold">$99.99</span>
@@ -194,7 +196,7 @@ const Discounts: React.FC = () => {
           {/* Content */}
           <div className="p-4 text-slate-500 flex flex-col">
             {/* Title */}
-            <h4 className="text-lg font-semibold mb-2">Barstool</h4>
+            <h4 className="text-lg font-semibold mb-2"> Ray Eame chair</h4>
             {/* Price and cart icon */}
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold">$99.99</span>

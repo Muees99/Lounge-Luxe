@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import ModernStool from "../components/ModernStool";
 import Choose from "../components/Choose";
+import FitChairs from "../components/FitChairs";
+import LoungeChairs from "../components/LoungeChairs";
 
 export default function HomeLayout({
   children,
@@ -32,6 +34,8 @@ export default function HomeLayout({
     <>
     <Navbar/>
     <Hero/>
+    <FitChairs/>
+    {/* <LoungeChairs/> */}
     <Choose/>
     <ModernStool/>
     <Footer/>

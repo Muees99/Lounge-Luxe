@@ -114,7 +114,7 @@ const Discounts: React.FC = () => {
           {/* Image */}
           <div className="relative h-60">
             <Image
-              src={"/assets/Lounge chair 2.png"}
+              src={"/assets/bn.png"}
               alt="teal"
               layout="fill"
               objectFit="cover"
@@ -123,7 +123,7 @@ const Discounts: React.FC = () => {
           {/* Content */}
           <div className="p-4 text-slate-500 flex flex-col">
             {/* Title */}
-            <h4 className="text-lg font-semibold mb-2">Barstool</h4>
+            <h4 className="text-lg font-semibold mb-2"> Hansen Wing chair</h4>
             {/* Price and cart icon */}
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold">$99.99</span>
@@ -167,7 +167,7 @@ const Discounts: React.FC = () => {
           {/* Content */}
           <div className="p-4 text-slate-500 flex flex-col">
             {/* Title */}
-            <h4 className="text-lg font-semibold mb-2">Barstool</h4>
+            <h4 className="text-lg font-semibold mb-2">Studio stool</h4>
             {/* Price and cart icon */}
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold">$99.99</span>
@@ -189,7 +189,7 @@ const Discounts: React.FC = () => {
           {/* Content */}
           <div className="p-4 text-slate-500 flex flex-col">
             {/* Title */}
-            <h4 className="text-lg font-semibold mb-2">Barstool</h4>
+            <h4 className="text-lg font-semibold mb-2">Balcony chair</h4>
             {/* Price and cart icon */}
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold">$99.99</span>

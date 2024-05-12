@@ -5,6 +5,9 @@ const Stool = () => {
   return (
     <>
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
+        <h3 className="font-montserrat font-bold text-2xl md:text-3xl sm:text-2xl leading-[140%] text-red-50 my-5">
+          Open concept kitchen
+        </h3>
         <div className="flex justify-between items-start">
           <div className="flex flex-row justify-between items-start">
             <div className="mr-4 relative" style={{ width: "50%" }}>
@@ -17,7 +20,7 @@ const Stool = () => {
                   objectFit="cover"
                   priority
                 />
-                <p className="absolute top-0 left-0 text-white bg-black bg-opacity-50 px-4 py-2">
+                <p className="absolute top-0 left-0 text-white text-sm md:text-sm sm:text-sm bg-black bg-opacity-50 px-4 py-2">
                   Rustic Table Furniture Sets Living room
                 </p>
               </div>
@@ -32,7 +35,7 @@ const Stool = () => {
                   objectFit="cover"
                   priority
                 />
-                <p className="absolute top-0 left-0 text-white bg-black bg-opacity-50 px-4 py-2">
+                <p className="absolute top-0 left-0 text-white text-sm md:text-sm sm:text-sm bg-black bg-opacity-50 px-4 py-2">
                   SofaSet Living room Couch Dining room
                 </p>
               </div>

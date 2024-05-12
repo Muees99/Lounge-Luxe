@@ -115,7 +115,7 @@ const Discounts: React.FC = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6 animate-slide-right">
         {/* Each card */}
-        <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden relative">
+        <div className="flex flex-col  bg-white rounded-lg shadow-lg overflow-hidden relative">
           {/* Image */}
           <div className="relative h-60">
             <Image
@@ -141,7 +141,7 @@ const Discounts: React.FC = () => {
           {/* Image */}
           <div className="relative h-60">
             <Image
-              src={"/assets/Disc2.png"}
+              src={"/assets/yellowset.png"}
               alt="teal"
               layout="fill"
               objectFit="cover"
@@ -187,7 +187,7 @@ const Discounts: React.FC = () => {
           {/* Image */}
           <div className="relative h-60">
             <Image
-              src={"/assets/Disc1.png"}
+              src={"/assets/graysofa.png"}
               alt="teal"
               layout="fill"
               objectFit="cover"

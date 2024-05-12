@@ -9,7 +9,7 @@ const Discounts: React.FC = () => {
   return (
     <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
       <div className="flex justify-between items-center md:gap-24 animate-slide-right">
-        <div className="text-lg font-bold">Discounts:</div>
+        <div className="text-lg font-bold">Featured Chairs:</div>
         <Button className="flex items-center gap-2 text-blue-100">
           See all <IoChevronForwardOutline className="h-4 w-4" />
         </Button>

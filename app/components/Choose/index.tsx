@@ -123,7 +123,7 @@ const YourComponent: React.FC = () => {
       title: "Quality Craftsmanship",
       description:
         "We meticulously handcraft each piece of furniture to ensure the highest quality and durability, so you can enjoy it for years to come.",
-      image: "/assets/fantasy.png",
+      image: "/assets/craftmanship.png",
     },
     {
       title: "Unique Designs",
@@ -135,9 +135,9 @@ const YourComponent: React.FC = () => {
       title: "Customer Satisfaction",
       description:
         "Customer satisfaction is our top priority. We strive to exceed your expectations by providing exceptional service and support throughout your shopping experience.",
-      image: "/assets/fantasy.png",
+      image: "/assets/customer.png",
     },
-     {
+    {
       title: "Customer Satisfaction",
       description:
         "Customer satisfaction is our top priority. We strive to exceed your expectations by providing exceptional service and support throughout your shopping experience.",

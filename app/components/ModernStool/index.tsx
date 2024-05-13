@@ -20,7 +20,7 @@ const Stool = () => {
                   objectFit="cover"
                   priority
                 />
-                <p className="absolute top-0 left-0 text-white text-sm md:text-sm sm:text-sm bg-black bg-opacity-50 px-4 py-2">
+                <p className="absolute top-0 left-0 text-white text-sm md:text-sm sm:text-sm bg-black bg-opacity-40 px-4 py-2">
                   Rustic Table Furniture Sets Living room
                 </p>
               </div>
@@ -35,7 +35,7 @@ const Stool = () => {
                   objectFit="cover"
                   priority
                 />
-                <p className="absolute top-0 left-0 text-white text-sm md:text-sm sm:text-sm bg-black bg-opacity-50 px-4 py-2">
+                <p className="absolute top-0 left-0 text-white text-sm md:text-sm sm:text-sm bg-black bg-opacity-40 px-4 py-2">
                   SofaSet Living room Couch Dining room
                 </p>
               </div>

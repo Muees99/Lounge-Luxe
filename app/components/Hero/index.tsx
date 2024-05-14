@@ -68,10 +68,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex flex-col w-full h-full justify-center items-center mt-6">
-          <div className="font-montserrat font-bold text-3xl md:text-5xl sm:text-2xl leading-[140%] text-red-50">
+          <div className="font-montserrat font-bold text-3xl md:text-5xl sm:text-2xl leading-[140%] text-red-50 relative z-[10000]">
             Welcome to LoungeLuxe
           </div>
-          <p className="font-montserrat font-light text-lg md:text-2xl sm:text-2xl  leading-[28px] mt-6 text-[#fff27b86]">
+          <p className="font-montserrat font-light text-lg md:text-2xl sm:text-2xl  leading-[28px] mt-6 text-[#fff27b86] relative z-[10000]">
             Here we provide you with the latest and fashionable chairs for your
             crib.
           </p>

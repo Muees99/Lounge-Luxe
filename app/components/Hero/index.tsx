@@ -48,7 +48,7 @@ const Hero = () => {
       {/* Content */}
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%] relative z-10">
         {/* Background Image */}
-        <div className=" justify-center items-center flex absolute">
+        <div className=" justify-center items-center flex absolute my-4">
           <Image
             src="/assets/couch.png"
             alt="Background"
@@ -67,8 +67,8 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col w-full h-full justify-center items-center mt-6">
-          <div className="font-montserrat font-bold text-3xl md:text-5xl sm:text-2xl leading-[140%] text-red-50 relative z-[10000]">
+        <div className="flex flex-col w-full h-full justify-center items-center mt-6 sm:mt-3">
+          <div className="font-montserrat font-bold text-3xl md:text-5xl sm:text-2xl leading-[140%] text-cyan-50 relative z-[10000]">
             Welcome to LoungeLuxe
           </div>
           <p className="font-montserrat font-light text-lg md:text-2xl sm:text-2xl  leading-[28px] mt-6 text-[#fff27b86] relative z-[10000]">

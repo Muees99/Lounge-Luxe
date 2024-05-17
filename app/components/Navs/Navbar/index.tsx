@@ -65,9 +65,9 @@ const Navbar = () => {
                 setIsActive(link.link);
               }}
               className={cn(
-                "text-[#b8ae3d] capitalize text-base relative font-medium before:bg-primary-light before:w-[0%] before:h-1 before:absolute before:-bottom-2 before:left-0 before:transition-all before:duration-500",
+                "text-[#b8ae3d] capitalize text-base relative font-medium  before:bg-yellow-200 before:w-[0%] before:h-1 before:absolute before:-bottom-2 before:left-0 before:transition-all before:duration-500",
                 isActive === link.link
-                  ? "before:w-full text-primary-light"
+                  ? "before:w-full text-yellow-200"
                   : "",
                 "hover:text-[#dcbf2de7]"
               )}

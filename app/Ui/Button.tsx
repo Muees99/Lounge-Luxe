@@ -60,7 +60,7 @@ const Button: React.FC<ButtonProps> = ({
   const classNames = twMerge(buttonVariants(props), className);
   if (href) {
     return (
-      // @ts-expect-error
+      // @ts-expect-error ....
       <Link href={href} className={classNames} {...props}>
         {leftIcon && leftIcon}
         {children}

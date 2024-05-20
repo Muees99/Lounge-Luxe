@@ -68,9 +68,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex flex-col w-full h-full justify-center items-center mt-6 sm:mt-3">
-          <div
-            className="font-montserrat font-bold  text-center text-xl md:text-5xl sm:text-2xl leading-[140%] text-[#ffffff] relative z-[10000]"
-          >
+          <div className="font-montserrat font-bold  text-center text-xl md:text-5xl sm:text-2xl leading-[140%] text-[#ffffff] relative z-[10000]">
             Welcome to LoungeLuxe
           </div>
           <p className="font-montserrat font-light text-center text-lg md:text-2xl sm:text-2xl  leading-[28px] mt-6 text-[#eed70c86] relative z-[10000]">

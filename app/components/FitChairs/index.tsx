@@ -42,7 +42,7 @@ const Discounts: React.FC = () => {
           {/* Image */}
           <div className="relative h-60">
             <Image
-              src={"/assets/chair3.png"}
+              src={"/assets/arm.png"}
               alt="teal"
               layout="fill"
               objectFit="cover"

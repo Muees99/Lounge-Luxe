@@ -102,7 +102,13 @@ const WhyChooseUs: React.FC<WhyChooseUsProps> = ({
 }) => {
   return (
     <div className="why-choose-us">
-      <Image src={image} alt={title} className="why-choose-us-image" />
+      <Image
+        src={image}
+        alt={title}
+        className="why-choose-us-image"
+        width={500}
+        height={300}
+      />
       <div className="why-choose-us-content">
         <p className="why-choose-us-description">{description}</p>
       </div>

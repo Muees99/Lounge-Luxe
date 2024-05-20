@@ -1,7 +1,7 @@
 import React from "react";
 import WhyChooseUs from "../WhyChooseUs"; // Adjust the import path as per your folder structure
 
-const YourComponent: React.FC = () => {
+const Choose: React.FC = () => {
   // Define the whyChooseUsDescriptions array here
   const whyChooseUsDescriptions = [
     {
@@ -23,10 +23,10 @@ const YourComponent: React.FC = () => {
       image: "/assets/customer.png",
     },
     {
-      title: "Customer Satisfaction",
+      title: "Durability & Eco-friendly",
       description:
-        "Customer satisfaction is our top priority. We strive to exceed your expectations by providing exceptional service and support throughout your shopping experience.",
-      image: "/assets/fantasy.png",
+        "Discover [Furniture Firm Name], where every piece combines lasting durability with eco-friendly craftsmanship. Embrace furniture that's as resilient as it is responsible, designed to elevate your space sustainably.",
+      image: "/assets/offwhite.png",
     },
   ];
   
@@ -62,4 +62,4 @@ const YourComponent: React.FC = () => {
   );
 };
 
-export default YourComponent;
+export default Choose;

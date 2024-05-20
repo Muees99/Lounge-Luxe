@@ -1,5 +1,7 @@
 // const whyChooseUsDescriptions = [
 
+import Image from "next/image";
+
 //   {
 //     title: "Quality Craftsmanship",
 //     description:
@@ -100,7 +102,7 @@ const WhyChooseUs: React.FC<WhyChooseUsProps> = ({
 }) => {
   return (
     <div className="why-choose-us">
-      <img src={image} alt={title} className="why-choose-us-image" />
+      <Image src={image} alt={title} className="why-choose-us-image" />
       <div className="why-choose-us-content">
         <p className="why-choose-us-description">{description}</p>
       </div>

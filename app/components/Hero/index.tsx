@@ -13,7 +13,6 @@ const Hero = () => {
           <Image
             src="/assets/couch.png"
             alt="Background"
-            // className="w-full h-full object-cover"
             width={1440}
             height={800}
             priority

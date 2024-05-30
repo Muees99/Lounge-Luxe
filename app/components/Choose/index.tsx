@@ -1,5 +1,5 @@
 import React from "react";
-import WhyChooseUs from "../WhyChooseUs"; // Adjust the import path as per your folder structure
+import WhyChooseUs from "../WhyChooseUs"; 
 
 const Choose: React.FC = () => {
   // Define the whyChooseUsDescriptions array here

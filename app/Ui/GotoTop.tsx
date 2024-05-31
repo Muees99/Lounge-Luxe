@@ -9,8 +9,6 @@ import cn from "@/app/utils/twcx";
 const GotoTop = () => {
   const scrollY = useWindowHeight();
 
-  // console.log(scrollY);
-
   const handleTop = () => {
     if (!window) return;
     window && window.scrollTo(0, 0);

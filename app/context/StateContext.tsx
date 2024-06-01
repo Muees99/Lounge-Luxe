@@ -6,7 +6,7 @@ import { StateContextProps } from "@/app/@types";
 export const StateContext = createContext({} as StateContextProps);
 
 const StateContextProvider = ({ children }: { children: React.ReactNode }) => {
-  // Add Your State(s) Here
+  // State(s) to be added Here
   const [showMobileMenu, setShowMobileMenu] = React.useState(false);
 
   useEffect(() => {

@@ -20,18 +20,20 @@
     background-size: cover;
   }
 }
-@font-face {
-  font-family: "Montserrat";
-  src: url('/fonts/Montserrat-Regular.woff2') format('woff2'),
-    url('/fonts/Montserrat-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
 
 /* Repeat for other font weights (Bold, Italic, etc.) */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: 'Manrope', sans-serif;
+  /* font-family: 'Lora', sans-serif; */
+  /* font-family: 'Pacifico', cursive; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -39,6 +41,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+
+
+
+/* Add other global styles here */
 
 
 /* footer */

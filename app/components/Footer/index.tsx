@@ -7,6 +7,10 @@ import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {
+const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+
+
   return (
     <footer className="w-full h-full  pt-5 lg:pt-10 ">
       <div className=" max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
@@ -104,7 +108,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center text-[#fff27b86] text-sm mt-4">
-            © Copyright Muees Alabi 2024. All Rights Reserved.
+            © Copyright Muees Alabi {currentYear}. All Rights Reserved.
           </div>
         </div>
       </div>
